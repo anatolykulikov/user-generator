@@ -1,0 +1,258 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: User Generator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-17 22:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.5.3\n"
+"X-Domain: usergenerator"
+
+#. Author of the plugin
+msgid "Anatoly Kulikov"
+msgstr ""
+
+#. Description of the plugin
+msgid "Generates random users for your WordPress site with completed profiles"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/anatolykulikov/user-generator"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://vk.com/anatolykulikov"
+msgstr ""
+
+#. Name of the plugin
+msgid "User Generator"
+msgstr ""
+
+#. Title of user role: Subscriber
+msgid "Subscriber"
+msgstr ""
+
+#. Title of user role: Contributor
+msgid "Contributor"
+msgstr ""
+
+#. Title of user role: Author
+msgid "Author"
+msgstr ""
+
+#. Title of user role: Editor
+msgid "Editor"
+msgstr ""
+
+#. Title of user role: Administator
+msgid "Administator"
+msgstr ""
+
+#. How many users do you need?
+msgid "How many users do you need?"
+msgstr ""
+
+#. Button "Generate"
+msgid "Generate"
+msgstr ""
+
+#. List of users
+msgid "List of users"
+msgstr ""
+
+#. Name for woman #1
+msgid "woman-name-1"
+msgstr ""
+
+#. Name for woman #2
+msgid "woman-name-2"
+msgstr ""
+
+#. Name for woman #3
+msgid "woman-name-3"
+msgstr ""
+
+#. Name for woman #4
+msgid "woman-name-4"
+msgstr ""
+
+#. Name for woman #5
+msgid "woman-name-5"
+msgstr ""
+
+#. Name for woman #6
+msgid "woman-name-6"
+msgstr ""
+
+#. Name for woman #7
+msgid "woman-name-7"
+msgstr ""
+
+#. Name for woman #8
+msgid "woman-name-8"
+msgstr ""
+
+#. Name for woman #9
+msgid "woman-name-9"
+msgstr ""
+
+#. Name for woman #10
+msgid "woman-name-10"
+msgstr ""
+
+#. Name for woman #11
+msgid "woman-name-11"
+msgstr ""
+
+#. Name for woman #12
+msgid "woman-name-12"
+msgstr ""
+
+#. Name for woman #13
+msgid "woman-name-13"
+msgstr ""
+
+#. Name for woman #14
+msgid "woman-name-14"
+msgstr ""
+
+#. Name for woman #16
+msgid "woman-name-15"
+msgstr ""
+
+#. Name for man #1
+msgid "man-name-1"
+msgstr ""
+
+#. Name for man #2
+msgid "man-name-2"
+msgstr ""
+
+#. Name for man #3
+msgid "man-name-3"
+msgstr ""
+
+#. Name for man #4
+msgid "man-name-4"
+msgstr ""
+
+#. Name for man #5
+msgid "man-name-5"
+msgstr ""
+
+#. Name for man #6
+msgid "man-name-6"
+msgstr ""
+
+#. Name for man #7
+msgid "man-name-7"
+msgstr ""
+
+#. Name for man #8
+msgid "man-name-8"
+msgstr ""
+
+#. Name for man #9
+msgid "man-name-9"
+msgstr ""
+
+#. Name for man #10
+msgid "man-name-10"
+msgstr ""
+
+#. Name for man #11
+msgid "man-name-11"
+msgstr ""
+
+#. Name for man #12
+msgid "man-name-12"
+msgstr ""
+
+#. Name for man #13
+msgid "man-name-13"
+msgstr ""
+
+#. Name for man #14
+msgid "man-name-14"
+msgstr ""
+
+#. Name for man #15
+msgid "man-name-15"
+msgstr ""
+
+#. Declension of surname for woman
+msgid "woman-declension-surname"
+msgstr ""
+
+#. Declension of surname for man
+msgid "man-declension-surname"
+msgstr ""
+
+#. Last name #1
+msgid "surname-1"
+msgstr ""
+
+#. Last name #2
+msgid "surname-2"
+msgstr ""
+
+#. Last name #3
+msgid "surname-3"
+msgstr ""
+
+#. Last name #4
+msgid "surname-4"
+msgstr ""
+
+#. Last name #5
+msgid "surname-5"
+msgstr ""
+
+#. Last name #6
+msgid "surname-6"
+msgstr ""
+
+#. Last name #7
+msgid "surname-7"
+msgstr ""
+
+#. Last name #8
+msgid "surname-8"
+msgstr ""
+
+#. Last name #9
+msgid "surname-9"
+msgstr ""
+
+#. Last name #10
+msgid "surname-10"
+msgstr ""
+
+#. Last name #11
+msgid "surname-11"
+msgstr ""
+
+#. Last name #12
+msgid "surname-12"
+msgstr ""
+
+#. Last name #13
+msgid "surname-13"
+msgstr ""
+
+#. Last name #14
+msgid "surname-14"
+msgstr ""
+
+
+#. Last name #15
+msgid "surname-15"
+msgstr ""

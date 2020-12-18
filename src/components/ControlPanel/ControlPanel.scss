@@ -1,0 +1,43 @@
+.control_panel {
+    display: block;
+    padding: 15px;
+    background-color: #FAFAFA;
+    box-shadow: #e0e0e0 10px 0px 20px;
+}
+
+.setting_block {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+
+    & > h2 {
+        margin: 0;
+    }
+}
+
+.range_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+
+    & > span {
+        width: 38px;
+        padding: 0 5px 0 0;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #007cba;
+    }
+
+    input[type="range"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+.checkbox_wrapper {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
