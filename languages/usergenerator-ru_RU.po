@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: User Generator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-17 22:12+0000\n"
-"PO-Revision-Date: 2020-12-18 19:09+0000\n"
+"PO-Revision-Date: 2020-12-22 12:42+0000\n"
 "Last-Translator: \n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -28,6 +28,10 @@ msgstr "Анатолий Куликов"
 msgid "Author"
 msgstr "Автор"
 
+#. Phrase about user #5
+msgid "But sometimes I can be lazy"
+msgstr "Иногда могу лениться"
+
 #. Title of user role: Contributor
 msgid "Contributor"
 msgstr "Участник"
@@ -36,6 +40,74 @@ msgstr "Участник"
 msgid "Editor"
 msgstr "Редактор"
 
+#. Phrase about user #15
+msgid "Fan of watching TV series"
+msgstr "Фанатею от просмотра сериалов"
+
+#. Declension of surname for female
+msgid "female-declension-surname"
+msgstr "а"
+
+#. Name for female #1
+msgid "female-name-1"
+msgstr "Мария"
+
+#. Name for female #10
+msgid "female-name-10"
+msgstr "Дарья"
+
+#. Name for female #11
+msgid "female-name-11"
+msgstr "Александра"
+
+#. Name for female #12
+msgid "female-name-12"
+msgstr "Ксения"
+
+#. Name for female #13
+msgid "female-name-13"
+msgstr "Екатерина"
+
+#. Name for female #14
+msgid "female-name-14"
+msgstr "Арина"
+
+#. Name for female #16
+msgid "female-name-15"
+msgstr "Вероника"
+
+#. Name for female #2
+msgid "female-name-2"
+msgstr "Анастасия"
+
+#. Name for female #3
+msgid "female-name-3"
+msgstr "Анна"
+
+#. Name for female #4
+msgid "female-name-4"
+msgstr "Варвара"
+
+#. Name for female #5
+msgid "female-name-5"
+msgstr "Виктория"
+
+#. Name for female #6
+msgid "female-name-6"
+msgstr "Полина"
+
+#. Name for female #7
+msgid "female-name-7"
+msgstr "Алиса"
+
+#. Name for female #8
+msgid "female-name-8"
+msgstr "София"
+
+#. Name for female #9
+msgid "female-name-9"
+msgstr "Елизавета"
+
 #. Button "Generate"
 msgid "Generate"
 msgstr "Сгенерировать"
@@ -43,8 +115,12 @@ msgstr "Сгенерировать"
 #. Description of the plugin
 msgid "Generates random users for your WordPress site with completed profiles"
 msgstr ""
-"Генерирует случайные пользователи на вашем сайте WordPress с готовыми "
+"Генерирует случайных пользователей на вашем сайте WordPress с готовыми "
 "профилями"
+
+#. Phrase about user #4
+msgid "Go to the gym when I have some free time"
+msgstr "В свободное время хожу в спортзал"
 
 #. How many users do you need?
 msgid "How many users do you need?"
@@ -58,73 +134,121 @@ msgstr "https://github.com/anatolykulikov/user-generator"
 msgid "https://vk.com/anatolykulikov"
 msgstr "https://vk.com/anatolykulikov"
 
+#. Phrase about user #11
+msgid "I dream of having a big housе"
+msgstr "Мечтаю о большом доме"
+
+#. Phrase about user #13
+msgid "I like meeting friends on weekends"
+msgstr "Мне нравится встречаться с друзьями по выходным"
+
+#. Phrase about user #1
+msgid "I like to dream big"
+msgstr "Люблю мечтать по-крупному"
+
+#. Phrase about user #2
+msgid "I like to listen to music with headphones"
+msgstr "Люблю слушать музыку в наушниках"
+
+#. Phrase about user #8
+msgid "I spend a lot of time studying foreign languages"
+msgstr "Уделяю много времени изучению иностранных языков"
+
+#. Phrase about user #3
+msgid "In my free time I usually read"
+msgstr "В свободное время я обычно читаю"
+
+#. Phrase about user #12
+msgid "In my spare time I’m watching movie"
+msgstr "Когда выдается свободная минутка - смотрю фильмы"
+
+#. Phrase about user #7
+msgid "Interested in history"
+msgstr "Интересуюсь историей"
+
 #. List of users
 msgid "List of users"
 msgstr "Список пользователей"
 
 #. Declension of surname for man
-msgid "man-declension-surname"
+msgid "male-declension-surname"
 msgstr " "
 
-#. Name for man #1
-msgid "man-name-1"
+#. Name for male #1
+msgid "male-name-1"
 msgstr "Александр"
 
-#. Name for man #10
-msgid "man-name-10"
+#. Name for male #10
+msgid "male-name-10"
 msgstr "Егор"
 
-#. Name for man #11
-msgid "man-name-11"
+#. Name for male #11
+msgid "male-name-11"
 msgstr "Илья"
 
-#. Name for man #12
-msgid "man-name-12"
+#. Name for male #12
+msgid "male-name-12"
 msgstr "Алексей"
 
-#. Name for man #13
-msgid "man-name-13"
+#. Name for male #13
+msgid "male-name-13"
 msgstr "Владимир"
 
-#. Name for man #14
-msgid "man-name-14"
+#. Name for male #14
+msgid "male-name-14"
 msgstr "Матвей"
 
-#. Name for man #15
-msgid "man-name-15"
+#. Name for male #15
+msgid "male-name-15"
 msgstr "Тимофей"
 
-#. Name for man #2
-msgid "man-name-2"
+#. Name for male #2
+msgid "male-name-2"
 msgstr "Михаил"
 
-#. Name for man #3
-msgid "man-name-3"
+#. Name for male #3
+msgid "male-name-3"
 msgstr "Иван"
 
-#. Name for man #4
-msgid "man-name-4"
+#. Name for male #4
+msgid "male-name-4"
 msgstr "Максим"
 
-#. Name for man #5
-msgid "man-name-5"
+#. Name for male #5
+msgid "male-name-5"
 msgstr "Артём"
 
-#. Name for man #6
-msgid "man-name-6"
+#. Name for male #6
+msgid "male-name-6"
 msgstr "Даниил"
 
-#. Name for man #7
-msgid "man-name-7"
+#. Name for male #7
+msgid "male-name-7"
 msgstr "Дмитрий"
 
-#. Name for man #8
-msgid "man-name-8"
+#. Name for male #8
+msgid "male-name-8"
 msgstr "Кирилл"
 
-#. Name for man #9
-msgid "man-name-9"
+#. Name for male #9
+msgid "male-name-9"
 msgstr "Андрей"
+
+#. Phrase about user #9
+msgid "My best qualities are patience and creativity"
+msgstr "Мои лучшие качества - терпение и творческий подход"
+
+#. Phrase about user #10
+msgid "My dream is to travel around the world"
+msgstr "Моя мечта – путешествовать по миру"
+
+#. Phrase about user #6
+msgid "My family is very important for me"
+msgstr "Моя семья очень важна для меня"
+
+#. Phrase about user #14
+msgid "My unusual hobby is cheese making"
+msgstr "Мое необычное хобби - сыроварение"
 
 #. Title of user role: Subscriber
 msgid "Subscriber"
@@ -193,67 +317,3 @@ msgstr "Морозов"
 #. Name of the plugin
 msgid "User Generator"
 msgstr "Генератор пользователей"
-
-#. Declension of surname for woman
-msgid "woman-declension-surname"
-msgstr "а"
-
-#. Name for woman #1
-msgid "woman-name-1"
-msgstr "Мария"
-
-#. Name for woman #10
-msgid "woman-name-10"
-msgstr "Дарья"
-
-#. Name for woman #11
-msgid "woman-name-11"
-msgstr "Александра"
-
-#. Name for woman #12
-msgid "woman-name-12"
-msgstr "Ксения"
-
-#. Name for woman #13
-msgid "woman-name-13"
-msgstr "Екатерина"
-
-#. Name for woman #14
-msgid "woman-name-14"
-msgstr "Арина"
-
-#. Name for woman #16
-msgid "woman-name-15"
-msgstr "Вероника"
-
-#. Name for woman #2
-msgid "woman-name-2"
-msgstr "Анастасия"
-
-#. Name for woman #3
-msgid "woman-name-3"
-msgstr "Анна"
-
-#. Name for woman #4
-msgid "woman-name-4"
-msgstr "Варвара"
-
-#. Name for woman #5
-msgid "woman-name-5"
-msgstr "Виктория"
-
-#. Name for woman #6
-msgid "woman-name-6"
-msgstr "Полина"
-
-#. Name for woman #7
-msgid "woman-name-7"
-msgstr "Алиса"
-
-#. Name for woman #8
-msgid "woman-name-8"
-msgstr "София"
-
-#. Name for woman #9
-msgid "woman-name-9"
-msgstr "Елизавета"
