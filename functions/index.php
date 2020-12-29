@@ -20,20 +20,10 @@ function user_generator_get_ui( WP_REST_Request $request ) {
 // Generate new random user
 function user_generator_create_user( WP_REST_Request $request ) {
     
+    // Generate new user
     $user = new User();
 
-    $create_user = [
-        'user_pass'  => $user->user_pass,
-        'user_login' => $user->user_login,
-        'user_email' => $user->user_email,
-        'user_url'   => $user->user_url,
-        'first_name' => $user->first_name,
-        'last_name'  => $user->last_name,
-        'role'       => $request['role']
-    ];
-
-    return $create_user;
-
+    // Insert user
     $user_id = wp_insert_user( [
         'user_pass'  => $user->user_pass,
         'user_login' => $user->user_login,
