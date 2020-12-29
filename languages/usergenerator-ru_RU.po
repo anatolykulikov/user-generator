@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: User Generator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-17 22:12+0000\n"
-"PO-Revision-Date: 2020-12-22 12:42+0000\n"
+"PO-Revision-Date: 2020-12-23 14:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -317,3 +317,7 @@ msgstr "Морозов"
 #. Name of the plugin
 msgid "User Generator"
 msgstr "Генератор пользователей"
+
+#. Title of user role: User roles
+msgid "User roles"
+msgstr "Роли пользователей"

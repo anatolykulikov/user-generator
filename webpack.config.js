@@ -1,5 +1,6 @@
 const path = require('path');
-const miniCssExtractLoader = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssnanoPlugin = require('cssnano-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const NODE_ENV = process.env.NODE_ENV;
 
@@ -17,9 +18,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
-    alias: {
-      components: path.resolve(__dirname, 'src', 'components'),
-    },
   },
   module: {
     rules: [{
@@ -30,8 +28,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
-          miniCssExtractLoader.loader,
+          MiniCssExtractPlugin.loader,
           'css-loader',
           {
             loader: 'postcss-loader',
@@ -42,15 +39,20 @@ module.exports = {
               sourceMap: true
             }
           },
-          'sass-loader',
+          'sass-loader'
         ],
       },
     ],
   },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssnanoPlugin(),
+    ]
+  },
   plugins: [
-    new miniCssExtractLoader({
+    new MiniCssExtractPlugin({
       filename: 'style.css',
     })
-  ],
-  devtool: 'sourse-map',
+  ]
 };

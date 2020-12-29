@@ -1,4 +1,16 @@
 .userlist {
     display: block;
     padding: 15px 30px;
+    box-sizing: border-box;
+
+    h2 {
+        width: 100%;
+        margin: 0 0 1em;
+        font-size: 1.4em;
+        color: #23282d;
+    }
+
+    ul {
+        margin: 0;
+    }
 }

@@ -1,1 +1,1 @@
-export { Userlist } from './Userlist';
+export { Userlist, IUserlist, IUser } from './Userlist';

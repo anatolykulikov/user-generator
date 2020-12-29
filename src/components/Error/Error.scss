@@ -1,0 +1,49 @@
+.error_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 360px;
+    background: #ffffff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-sizing: border-box;
+
+    $svg_size: 128px;
+
+    figure {
+        display: flex;
+        width: 100%;
+        max-width: 320px;
+        align-items: center;
+        margin: 0;
+        padding: 16px;
+        border-radius: 20px;
+        box-shadow: #e4002b14 0 0 40px;
+        box-sizing: border-box;
+
+        svg {
+            display: block;
+            width: $svg_size;
+            height: $svg_size;
+            box-sizing: border-box;
+        }
+
+        figcaption {
+            display: block;
+            width: calc(100% - 128px);
+            padding: 16px;
+            box-sizing: border-box;
+
+            h2 {
+                margin: 0 0 .8rem;
+                font-size: 1.4rem;
+                box-sizing: border-box;
+            }
+
+            p {
+                margin: 0;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

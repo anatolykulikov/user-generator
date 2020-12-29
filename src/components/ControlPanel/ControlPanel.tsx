@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './ControlPanel.scss';
+import { IAppInterfaceTexts } from '../Wrapper/Wrapper'
 
 interface IControlPanel {
     onGenerate: (state: IControlPanelState) => void;
+    text: IAppInterfaceTexts;
 }
 
 export interface IControlPanelState {
@@ -10,7 +12,7 @@ export interface IControlPanelState {
     roles: string[];
 }
 
-export const ControlPanel: React.FC<IControlPanel> = ({onGenerate}): JSX.Element => {
+export const ControlPanel: React.FC<IControlPanel> = ({text, onGenerate}): JSX.Element => {
 
     const maxUsersCount = 20;
 
@@ -74,36 +76,36 @@ export const ControlPanel: React.FC<IControlPanel> = ({onGenerate}): JSX.Element
     return(
         <div className='control_panel'>
             <div className='setting_block'>
-                <h2>Сколько пользователей нужно?</h2>
+                <h2>{ text.controlTitle }</h2>
                 <label className='range_wrapper'>
                     <span>{state.userCount}</span>
                     <input type='range' name='userCount' value={state.userCount} min={1} max={maxUsersCount} step={1} onChange={handleInput} />
                 </label>
             </div>
             <div className='setting_block'>
-                <h2>Роли пользователей</h2>
+                <h2>{ text.roleTitle }</h2>
                 <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='administator' onChange={handleInput} checked={inputCheckedHandler('administator')} />
-                    <span>Администратор</span>
+                    <span>{ text.roleAdministator }</span>
                 </label>
                 <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='editor' onChange={handleInput} checked={inputCheckedHandler('editor')} />
-                    <span>Редактор</span>
+                    <span>{ text.roleEditor }</span>
                 </label>
                 <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='author' onChange={handleInput} checked={inputCheckedHandler('author')} />
-                    <span>Автор</span>
+                    <span>{ text.roleAuthor }</span>
                 </label>
                 <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='contributor' onChange={handleInput} checked={inputCheckedHandler('contributor')} />
-                    <span>Участник</span>
+                    <span>{ text.roleContributor }</span>
                 </label>
                 <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='subscriber' onChange={handleInput} checked={inputCheckedHandler('subscriber')} />
-                    <span>Подписчик</span>
+                    <span>{ text.roleSubscriber }</span>
                 </label>
             </div>
-            <button className="button button-primary" type="button" onClick={generateUsers}>Сгенерировать</button>
+            <button className="button button-primary" type="button" onClick={generateUsers}>{ text.controlButton }</button>
         </div>
     );
 }

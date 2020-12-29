@@ -1,14 +1,13 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: User Generator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-17 22:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: 2020-12-23 20:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,305 +17,304 @@ msgstr ""
 
 #. Author of the plugin
 msgid "Anatoly Kulikov"
-msgstr ""
+msgstr "Anatoly Kulikov"
 
 #. Description of the plugin
 msgid "Generates random users for your WordPress site with completed profiles"
-msgstr ""
+msgstr "Generates random users for your WordPress site with completed profiles"
 
 #. URI of the plugin
 msgid "https://github.com/anatolykulikov/user-generator"
-msgstr ""
+msgstr "https://github.com/anatolykulikov/user-generator"
 
 #. Author URI of the plugin
 msgid "https://vk.com/anatolykulikov"
-msgstr ""
+msgstr "https://vk.com/anatolykulikov"
 
 #. Name of the plugin
 msgid "User Generator"
-msgstr ""
+msgstr "User Generator"
 
 #. Title of user role: User roles
 msgid "User roles"
-msgstr ""
+msgstr "User roles"
 
 #. Title of user role: Subscriber
 msgid "Subscriber"
-msgstr ""
+msgstr "Subscriber"
 
 #. Title of user role: Contributor
 msgid "Contributor"
-msgstr ""
+msgstr "Contributor"
 
 #. Title of user role: Author
 msgid "Author"
-msgstr ""
+msgstr "Author"
 
 #. Title of user role: Editor
 msgid "Editor"
-msgstr ""
+msgstr "Editor"
 
 #. Title of user role: Administator
 msgid "Administator"
-msgstr ""
+msgstr "Administator"
 
 #. How many users do you need?
 msgid "How many users do you need?"
-msgstr ""
+msgstr "How many users do you need?"
 
 #. Button "Generate"
 msgid "Generate"
-msgstr ""
+msgstr "Generate"
 
 #. List of users
 msgid "List of users"
-msgstr ""
+msgstr "List of users"
 
 #. Name for female #1
 msgid "female-name-1"
-msgstr ""
+msgstr "Olivia"
 
 #. Name for female #2
 msgid "female-name-2"
-msgstr ""
+msgstr "Amelia"
 
 #. Name for female #3
 msgid "female-name-3"
-msgstr ""
+msgstr "Isla"
 
 #. Name for female #4
 msgid "female-name-4"
-msgstr ""
+msgstr "Ava"
 
 #. Name for female #5
 msgid "female-name-5"
-msgstr ""
+msgstr "Mia"
 
 #. Name for female #6
 msgid "female-name-6"
-msgstr ""
+msgstr "Isabella"
 
 #. Name for female #7
 msgid "female-name-7"
-msgstr ""
+msgstr "Sophia"
 
 #. Name for female #8
 msgid "female-name-8"
-msgstr ""
+msgstr "Grace"
 
 #. Name for female #9
 msgid "female-name-9"
-msgstr ""
+msgstr "Lily"
 
 #. Name for female #10
 msgid "female-name-10"
-msgstr ""
+msgstr "Freya"
 
 #. Name for female #11
 msgid "female-name-11"
-msgstr ""
+msgstr "Emily"
 
 #. Name for female #12
 msgid "female-name-12"
-msgstr ""
+msgstr "Ivy"
 
 #. Name for female #13
 msgid "female-name-13"
-msgstr ""
+msgstr "Ella"
 
 #. Name for female #14
 msgid "female-name-14"
-msgstr ""
+msgstr "Rosie"
 
 #. Name for female #16
 msgid "female-name-15"
-msgstr ""
+msgstr "Evie"
 
 #. Name for male #1
 msgid "male-name-1"
-msgstr ""
+msgstr "Oliver"
 
 #. Name for male #2
 msgid "male-name-2"
-msgstr ""
+msgstr "George"
 
 #. Name for male #3
 msgid "male-name-3"
-msgstr ""
+msgstr "Noah"
 
 #. Name for male #4
 msgid "male-name-4"
-msgstr ""
+msgstr "Arthur"
 
 #. Name for male #5
 msgid "male-name-5"
-msgstr ""
+msgstr "Harry"
 
 #. Name for male #6
 msgid "male-name-6"
-msgstr ""
+msgstr "Leo"
 
 #. Name for male #7
 msgid "male-name-7"
-msgstr ""
+msgstr "Muhammad"
 
 #. Name for male #8
 msgid "male-name-8"
-msgstr ""
+msgstr "Jack"
 
 #. Name for male #9
 msgid "male-name-9"
-msgstr ""
+msgstr "Charlie"
 
 #. Name for male #10
 msgid "male-name-10"
-msgstr ""
+msgstr "Oscar"
 
 #. Name for male #11
 msgid "male-name-11"
-msgstr ""
+msgstr "Jacob"
 
 #. Name for male #12
 msgid "male-name-12"
-msgstr ""
+msgstr "Henry"
 
 #. Name for male #13
 msgid "male-name-13"
-msgstr ""
+msgstr "Thomas"
 
 #. Name for male #14
 msgid "male-name-14"
-msgstr ""
+msgstr "Freddie"
 
 #. Name for male #15
 msgid "male-name-15"
-msgstr ""
+msgstr "Alfie"
 
 #. Declension of surname for female
 msgid "female-declension-surname"
-msgstr ""
+msgstr " "
 
 #. Declension of surname for man
 msgid "male-declension-surname"
-msgstr ""
+msgstr " "
 
 #. Last name #1
 msgid "surname-1"
-msgstr ""
+msgstr "Smith"
 
 #. Last name #2
 msgid "surname-2"
-msgstr ""
+msgstr "Jones"
 
 #. Last name #3
 msgid "surname-3"
-msgstr ""
+msgstr "Williams"
 
 #. Last name #4
 msgid "surname-4"
-msgstr ""
+msgstr "Taylor"
 
 #. Last name #5
 msgid "surname-5"
-msgstr ""
+msgstr "Davies"
 
 #. Last name #6
 msgid "surname-6"
-msgstr ""
+msgstr "Brown"
 
 #. Last name #7
 msgid "surname-7"
-msgstr ""
+msgstr "Wilson"
 
 #. Last name #8
 msgid "surname-8"
-msgstr ""
+msgstr "Evans"
 
 #. Last name #9
 msgid "surname-9"
-msgstr ""
+msgstr "Johnson"
 
 #. Last name #10
 msgid "surname-10"
-msgstr ""
+msgstr "Roberts"
 
 #. Last name #11
 msgid "surname-11"
-msgstr ""
+msgstr "Walker"
 
 #. Last name #12
 msgid "surname-12"
-msgstr ""
+msgstr "Wright"
 
 #. Last name #13
 msgid "surname-13"
-msgstr ""
+msgstr "Robinson"
 
 #. Last name #14
 msgid "surname-14"
-msgstr ""
+msgstr "Thompson"
 
 #. Last name #15
 msgid "surname-15"
-msgstr ""
-
+msgstr "Edwards"
 
 #. Phrase about user #1
 msgid "I like to dream big"
-msgstr ""
+msgstr "I like to dream big"
 
 #. Phrase about user #2
 msgid "I like to listen to music with headphones"
-msgstr ""
+msgstr "I like to listen to music with headphones"
 
 #. Phrase about user #3
 msgid "In my free time I usually read"
-msgstr ""
+msgstr "In my free time I usually read"
 
 #. Phrase about user #4
 msgid "Go to the gym when I have some free time"
-msgstr ""
+msgstr "Go to the gym when I have some free time"
 
 #. Phrase about user #5
 msgid "But sometimes I can be lazy"
-msgstr ""
+msgstr "But sometimes I can be lazy"
 
 #. Phrase about user #6
 msgid "My family is very important for me"
-msgstr ""
+msgstr "My family is very important for me"
 
 #. Phrase about user #7
 msgid "Interested in history"
-msgstr ""
+msgstr "Interested in history"
 
 #. Phrase about user #8
 msgid "I spend a lot of time studying foreign languages"
-msgstr ""
+msgstr "I spend a lot of time studying foreign languages"
 
 #. Phrase about user #9
 msgid "My best qualities are patience and creativity"
-msgstr ""
+msgstr "My best qualities are patience and creativity"
 
 #. Phrase about user #10
 msgid "My dream is to travel around the world"
-msgstr ""
+msgstr "My dream is to travel around the world"
 
 #. Phrase about user #11
 msgid "I dream of having a big housе"
-msgstr ""
+msgstr "I dream of having a big housе"
 
 #. Phrase about user #12
 msgid "In my spare time I’m watching movie"
-msgstr ""
+msgstr "In my spare time I’m watching movie"
 
 #. Phrase about user #13
 msgid "I like meeting friends on weekends"
-msgstr ""
+msgstr "I like meeting friends on weekends"
 
 #. Phrase about user #14
 msgid "My unusual hobby is cheese making"
-msgstr ""
+msgstr "My unusual hobby is cheese making"
 
 #. Phrase about user #15
 msgid "Fan of watching TV series"
-msgstr ""
+msgstr "Fan of watching TV series"

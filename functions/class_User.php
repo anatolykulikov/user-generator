@@ -5,6 +5,7 @@ class User {
     public $first_name = '';
     public $last_name = '';
     public $description = '';
+    public $user_url = '';
 
     public function __construct() {
 
@@ -26,9 +27,10 @@ class User {
             }
         }        
 
-        // Generate user login
+        // Generate user login, email and user url
         $this->generate_login();
         $this->generate_email();
+        $this->generate_url();
 
         // Generate user description
         $this->description = get_about_user();
@@ -55,5 +57,10 @@ class User {
     // Generate user_login
     private function generate_email() {
         return $this->user_email = $this->user_login .'@'. $_SERVER['HTTP_HOST'] .'.wordpress';
+    }
+
+    // Generate user_url
+    private function generate_url() {
+        return $this->user_url = home_url( '/author/' ) . $this->user_login;
     }
 }

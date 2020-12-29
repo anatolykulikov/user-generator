@@ -1,322 +1,323 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: User Generator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-17 22:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: 2020-12-23 21:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.5.0; wp-5.5.3\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
 "X-Domain: usergenerator"
 
 #. Author of the plugin
 msgid "Anatoly Kulikov"
-msgstr ""
+msgstr "Анатолій Куликов"
 
 #. Description of the plugin
 msgid "Generates random users for your WordPress site with completed profiles"
 msgstr ""
+"Генерує випадкових користувачів для вашого сайту WordPress із заповненими "
+"профілями"
 
 #. URI of the plugin
 msgid "https://github.com/anatolykulikov/user-generator"
-msgstr ""
+msgstr "https://github.com/anatolykulikov/user-generator"
 
 #. Author URI of the plugin
 msgid "https://vk.com/anatolykulikov"
-msgstr ""
+msgstr "https://vk.com/anatolykulikov"
 
 #. Name of the plugin
 msgid "User Generator"
-msgstr ""
+msgstr "Генератор користувачів"
 
 #. Title of user role: User roles
 msgid "User roles"
-msgstr ""
+msgstr "Ролі користувачів"
 
 #. Title of user role: Subscriber
 msgid "Subscriber"
-msgstr ""
+msgstr "Учасник"
 
 #. Title of user role: Contributor
 msgid "Contributor"
-msgstr ""
+msgstr "Помічник"
 
 #. Title of user role: Author
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #. Title of user role: Editor
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #. Title of user role: Administator
 msgid "Administator"
-msgstr ""
+msgstr "Адміністратор"
 
 #. How many users do you need?
 msgid "How many users do you need?"
-msgstr ""
+msgstr "Скільки користувачів потрібно?"
 
 #. Button "Generate"
 msgid "Generate"
-msgstr ""
+msgstr "Генерувати"
 
 #. List of users
 msgid "List of users"
-msgstr ""
+msgstr "Список користувачів"
 
 #. Name for female #1
 msgid "female-name-1"
-msgstr ""
+msgstr "Анастасія"
 
 #. Name for female #2
 msgid "female-name-2"
-msgstr ""
+msgstr "Марія"
 
 #. Name for female #3
 msgid "female-name-3"
-msgstr ""
+msgstr "Софія"
 
 #. Name for female #4
 msgid "female-name-4"
-msgstr ""
+msgstr "Вероніка"
 
 #. Name for female #5
 msgid "female-name-5"
-msgstr ""
+msgstr "Вікторія"
 
 #. Name for female #6
 msgid "female-name-6"
-msgstr ""
+msgstr "Соломія"
 
 #. Name for female #7
 msgid "female-name-7"
-msgstr ""
+msgstr "Ангеліна"
 
 #. Name for female #8
 msgid "female-name-8"
-msgstr ""
+msgstr "Злата"
 
 #. Name for female #9
 msgid "female-name-9"
-msgstr ""
+msgstr "Ганна"
 
 #. Name for female #10
 msgid "female-name-10"
-msgstr ""
+msgstr "Єва"
 
 #. Name for female #11
 msgid "female-name-11"
-msgstr ""
+msgstr "Поліна"
 
 #. Name for female #12
 msgid "female-name-12"
-msgstr ""
+msgstr "Аліса"
 
 #. Name for female #13
 msgid "female-name-13"
-msgstr ""
+msgstr "Олександра"
 
 #. Name for female #14
 msgid "female-name-14"
-msgstr ""
+msgstr "Мілана"
 
 #. Name for female #16
 msgid "female-name-15"
-msgstr ""
+msgstr "Дарія"
 
 #. Name for male #1
 msgid "male-name-1"
-msgstr ""
+msgstr "Артем"
 
 #. Name for male #2
 msgid "male-name-2"
-msgstr ""
+msgstr "Олександр"
 
 #. Name for male #3
 msgid "male-name-3"
-msgstr ""
+msgstr "Максим"
 
 #. Name for male #4
 msgid "male-name-4"
-msgstr ""
+msgstr "Дмитро"
 
 #. Name for male #5
 msgid "male-name-5"
-msgstr ""
+msgstr "Матвій"
 
 #. Name for male #6
 msgid "male-name-6"
-msgstr ""
+msgstr "Назар"
 
 #. Name for male #7
 msgid "male-name-7"
-msgstr ""
+msgstr "Богдан"
 
 #. Name for male #8
 msgid "male-name-8"
-msgstr ""
+msgstr "Марк"
 
 #. Name for male #9
 msgid "male-name-9"
-msgstr ""
+msgstr "Данііл"
 
 #. Name for male #10
 msgid "male-name-10"
-msgstr ""
+msgstr "Михайло"
 
 #. Name for male #11
 msgid "male-name-11"
-msgstr ""
+msgstr "Володимир"
 
 #. Name for male #12
 msgid "male-name-12"
-msgstr ""
+msgstr "Іван"
 
 #. Name for male #13
 msgid "male-name-13"
-msgstr ""
+msgstr "Давид"
 
 #. Name for male #14
 msgid "male-name-14"
-msgstr ""
+msgstr "Андрій"
 
 #. Name for male #15
 msgid "male-name-15"
-msgstr ""
+msgstr "Нікіта"
 
 #. Declension of surname for female
 msgid "female-declension-surname"
-msgstr ""
+msgstr " "
 
 #. Declension of surname for man
 msgid "male-declension-surname"
-msgstr ""
+msgstr " "
 
 #. Last name #1
 msgid "surname-1"
-msgstr ""
+msgstr "Мельник"
 
 #. Last name #2
 msgid "surname-2"
-msgstr ""
+msgstr "Шевченко"
 
 #. Last name #3
 msgid "surname-3"
-msgstr ""
+msgstr "Коваленко"
 
 #. Last name #4
 msgid "surname-4"
-msgstr ""
+msgstr "Бондаренко"
 
 #. Last name #5
 msgid "surname-5"
-msgstr ""
+msgstr "Бойко"
 
 #. Last name #6
 msgid "surname-6"
-msgstr ""
+msgstr "Ткаченко"
 
 #. Last name #7
 msgid "surname-7"
-msgstr ""
+msgstr "Кравченко"
 
 #. Last name #8
 msgid "surname-8"
-msgstr ""
+msgstr "Ковальчук"
 
 #. Last name #9
 msgid "surname-9"
-msgstr ""
+msgstr "Коваль"
 
 #. Last name #10
 msgid "surname-10"
-msgstr ""
+msgstr "Олійник"
 
 #. Last name #11
 msgid "surname-11"
-msgstr ""
+msgstr "Шевчук"
 
 #. Last name #12
 msgid "surname-12"
-msgstr ""
+msgstr "Поліщук"
 
 #. Last name #13
 msgid "surname-13"
-msgstr ""
+msgstr "Ткачук"
 
 #. Last name #14
 msgid "surname-14"
-msgstr ""
+msgstr "Савченко"
 
 #. Last name #15
 msgid "surname-15"
-msgstr ""
-
+msgstr "Бондар"
 
 #. Phrase about user #1
 msgid "I like to dream big"
-msgstr ""
+msgstr "Мені подобається мріяти великим"
 
 #. Phrase about user #2
 msgid "I like to listen to music with headphones"
-msgstr ""
+msgstr "Я люблю слухати музику в навушниках"
 
 #. Phrase about user #3
 msgid "In my free time I usually read"
-msgstr ""
+msgstr "У вільний час я зазвичай читаю"
 
 #. Phrase about user #4
 msgid "Go to the gym when I have some free time"
-msgstr ""
+msgstr "Ходіть у спортзал, коли у мене буде вільний час"
 
 #. Phrase about user #5
 msgid "But sometimes I can be lazy"
-msgstr ""
+msgstr "Але іноді я можу бути ледачим"
 
 #. Phrase about user #6
 msgid "My family is very important for me"
-msgstr ""
+msgstr "Для мене дуже важлива моя сім’я"
 
 #. Phrase about user #7
 msgid "Interested in history"
-msgstr ""
+msgstr "Цікавиться історією"
 
 #. Phrase about user #8
 msgid "I spend a lot of time studying foreign languages"
-msgstr ""
+msgstr "Я витрачаю багато часу на вивчення іноземних мов"
 
 #. Phrase about user #9
 msgid "My best qualities are patience and creativity"
-msgstr ""
+msgstr "Мої найкращі якості - це терпіння та креативність"
 
 #. Phrase about user #10
 msgid "My dream is to travel around the world"
-msgstr ""
+msgstr "Мрію подорожувати по світу"
 
 #. Phrase about user #11
 msgid "I dream of having a big housе"
-msgstr ""
+msgstr "Я мрію мати великий будинок"
 
 #. Phrase about user #12
 msgid "In my spare time I’m watching movie"
-msgstr ""
+msgstr "У вільний час я дивлюсь фільм"
 
 #. Phrase about user #13
 msgid "I like meeting friends on weekends"
-msgstr ""
+msgstr "Мені подобається зустрічатися з друзями на вихідних"
 
 #. Phrase about user #14
 msgid "My unusual hobby is cheese making"
-msgstr ""
+msgstr "Моє незвичайне захоплення - це виготовлення сиру"
 
 #. Phrase about user #15
 msgid "Fan of watching TV series"
-msgstr ""
+msgstr "Шанувальник перегляду серіалів"

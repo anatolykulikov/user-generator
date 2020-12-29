@@ -1,0 +1,29 @@
+.UserCard {
+    width: 100%;
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+
+    &:not(:last-of-type) {
+        border-bottom: #ccd0d4 solid 1px;
+    }
+
+    &__name {
+        display: block;
+        margin: 0 0 3px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__email {
+        display: block;
+        margin: 0 0 4px;
+        font-size: 14px;
+    }
+
+    &__role {
+        display: block;
+        font-size: 12px;
+        font-weight: 200;
+    }
+}

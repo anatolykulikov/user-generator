@@ -1,0 +1,60 @@
+.Loading_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 360px;
+    margin: 8px 0 0;
+    border: 1px solid #ccd0d4;
+    background: #ffffff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-sizing: border-box;
+}
+
+.Loading {
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+    & > span {
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        animation: spin 2s linear infinite;
+    }
+
+    .big {
+        width: 100%;
+        height: 100%;
+        border: 3px solid transparent;
+        border-top-color: #0087be;
+    }
+
+    .middle {
+        top: 15%;
+        left: 15%;
+        width: 70%;
+        height: 70%;
+        border: 3px solid transparent;
+        border-top-color: #21759b;
+        animation-direction: reverse;
+    }
+
+    .small {
+        top: 30%;
+        left: 30%;
+        width: 40%;
+        height: 40%;
+        border: 3px solid transparent;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
