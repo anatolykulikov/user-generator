@@ -1,9 +1,10 @@
-interface ITranslations {
+export interface ITranslations {
     roleSubscriber: string;
     roleContributor: string;
     roleAuthor: string;
     roleEditor: string;
     roleAdministator: string;
+    userslistTitle: string;
 }
 
 export const roleTranslator = (role: string, translations: ITranslations): string => {

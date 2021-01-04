@@ -1,10 +1,16 @@
 import React from 'react';
 import { IUser } from '../Userlist'
 import { roleTranslator } from '../../helpers/roleTranslator';
+import { ITranslations } from '../../helpers/roleTranslator';
 import './Usercard.scss';
 
-interface IUsercard extends IUser {
-    text: object;
+export interface IUsercard extends IUser {
+    first_name: string;
+    last_name: string;
+    user_email: string;
+    user_url: string;
+    role: string;
+    text: ITranslations;
 }
 
 export const Usercard: React.FC<IUsercard> = ({
@@ -15,9 +21,6 @@ export const Usercard: React.FC<IUsercard> = ({
     role,
     text
 }): JSX.Element => {
-
-    console.log(text);
-
     return (
         <li className="UserCard">
             <span className="UserCard__name">{ first_name } { last_name }</span>

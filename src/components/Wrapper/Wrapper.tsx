@@ -29,6 +29,11 @@ interface IWrapper {
     users: IUser[];
 }
 
+interface IUserResponse {
+    status: string[];
+    data: IUser;
+}
+
 export const Wrapper: React.FC = (): JSX.Element => {
 
     const [state, setState] = useState<IWrapper>({
@@ -58,9 +63,7 @@ export const Wrapper: React.FC = (): JSX.Element => {
 
     async function LoadApp() {
         const AppIU = await startApp();
-
-        console.log(AppIU);
-        
+                
         if(AppIU.status) {
 
             return setState((state) => ({
@@ -112,10 +115,10 @@ export const Wrapper: React.FC = (): JSX.Element => {
 
 
     // Update state for userlist
-    const addToUserList = (user: IUser) => {
+    const addToUserList = (user: IUserResponse) => {
 
         const nextState = state.users;
-        nextState.push(user);
+        nextState.push(user.data);
 
         return setState((state) => ({
             ...state,

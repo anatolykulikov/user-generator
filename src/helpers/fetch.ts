@@ -1,11 +1,11 @@
 interface IApplication {
-    API: string | null;
-    Token: string | null;
+    API: string;
+    Token: string;
 }
 
 const Application: IApplication = {
-    API: (document.getElementById('usergenerator') !== null) ? document.getElementById('usergenerator').getAttribute('data-api') : '',
-    Token: (document.getElementById('usergenerator') !== null) ? document.getElementById('usergenerator').getAttribute('data-token') : ''
+    API: document.getElementById('usergenerator').getAttribute('data-api'),
+    Token: document.getElementById('usergenerator').getAttribute('data-token')
 };
 
 
