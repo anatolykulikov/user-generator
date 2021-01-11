@@ -1,15 +1,18 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const TerserPlugin = require("terser-webpack-plugin");
 const autoprefixer = require('autoprefixer');
 const NODE_ENV = process.env.NODE_ENV;
 
 module.exports = {
-  mode: NODE_ENV ? NODE_ENV : 'development',
+  mode: NODE_ENV ? NODE_ENV : 'production',
   entry: path.resolve(__dirname, 'src', 'index.ts'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
+  devtool: 'nosources-source-map',
   watch: true,
   watchOptions: {
     ignored: /node_modules/,
@@ -45,7 +48,18 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: true
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          format: {
+            comments: false,
+          },
+        },
+        extractComments: false,
+      }),
+      new CssMinimizerPlugin()
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({
