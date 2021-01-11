@@ -31,6 +31,7 @@ function user_generator_create_user( WP_REST_Request $request ) {
         'user_url'   => $user->user_url,
         'first_name' => $user->first_name,
         'last_name'  => $user->last_name,
+        'description' => $user->description,
         'role'       => $request['role']
     ] );
 
@@ -50,6 +51,7 @@ function user_generator_create_user( WP_REST_Request $request ) {
             'user_email' => $user->user_email,
             'user_login' => $user->user_login,
             'user_url'   => $user->user_url,
+            'description' => $user->description,
             'role'       => $request['role']
         ]
     ];
