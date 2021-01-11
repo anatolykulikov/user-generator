@@ -1,7 +1,7 @@
 {
   "name": "user-generator",
   "version": "1.0.0",
-  "description": "Генератор случайных пользователей",
+  "description": "Generates random users for your WordPress site with completed profiles",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack"
