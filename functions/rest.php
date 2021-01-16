@@ -6,7 +6,7 @@ add_action( 'rest_api_init', function() {
     register_rest_route( 'usergen', 'start', [
         'methods' => 'GET',
         'callback' => 'user_generator_get_ui',
-        'permission_callback' => 'usergen_permission_callback',
+        'permission_callback' => 'user_generator_permission_callback',
         'show_in_index' => false
     ]);
     
@@ -14,7 +14,7 @@ add_action( 'rest_api_init', function() {
     register_rest_route( 'usergen', 'create', [
         'methods' => 'POST',
         'callback' => 'user_generator_create_user',
-        'permission_callback' => 'usergen_permission_callback',
+        'permission_callback' => 'user_generator_permission_callback',
         'show_in_index' => false,
         'args' => [
             'role' => [
@@ -34,7 +34,7 @@ add_action( 'rest_api_init', function() {
 });
 
 // Function for permission
-function usergen_permission_callback( WP_REST_Request $request ) {
+function user_generator_permission_callback( WP_REST_Request $request ) {
     
     // Check the availability of the token in HTTP_X_API_KEY
     if( isset( $_SERVER['HTTP_X_API_KEY'] ) ) {

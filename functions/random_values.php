@@ -1,12 +1,12 @@
 <?php
 // Get randor array item
-function get_random( array $arr ) {
+function user_generator_get_random( array $arr ) {
     $rand_item = array_rand( $arr, 2 );
     return $arr[$rand_item[0]];
 }
 
 // Get the user surname
-function get_surname() {
+function user_generator_get_surname() {
     $surnames = [
         __( 'surname-1', 'usergenerator' ),
         __( 'surname-2', 'usergenerator' ),
@@ -25,11 +25,11 @@ function get_surname() {
         __( 'surname-15', 'usergenerator')
     ];
 
-    return get_random( $surnames );
+    return user_generator_get_random( $surnames );
 }
 
 // Get the female user firstname
-function get_female_name() {
+function user_generator_get_female_name() {
     $female_names = [
         __( 'female-name-1', 'usergenerator' ),
         __( 'female-name-2', 'usergenerator' ),
@@ -48,11 +48,11 @@ function get_female_name() {
         __( 'female-name-15', 'usergenerator')
     ];
     
-    return get_random($female_names);
+    return user_generator_get_random($female_names);
 }
 
 // Get the male user firstname
-function get_male_name() {
+function user_generator_get_male_name() {
     $male_names = [
         __( 'male-name-1', 'usergenerator' ),
         __( 'male-name-2', 'usergenerator' ),
@@ -71,11 +71,11 @@ function get_male_name() {
         __( 'male-name-15', 'usergenerator')
     ];
     
-    return get_random( $male_names );
+    return user_generator_get_random( $male_names );
 }
 
 // Creating a user biography
-function get_about_user() {
+function user_generator_get_about_user() {
     $phrases = [
         __( 'I like to dream big', 'usergenerator' ),
         __( 'I like to listen to music with headphones', 'usergenerator' ),
@@ -100,9 +100,9 @@ function get_about_user() {
     // Let's take a few random phrases
     $phrases_count = rand( 1, 5 );
     for( $i = 0; $i < $phrases_count; $i++ ) {
-        $biography[] = get_random( $phrases );
+        $biography[] = user_generator_get_random( $phrases );
     }
 
     // Returning the string
-    return implode( '. ', $biography );
+    return implode( '. ', $biography ) . '.';
 }

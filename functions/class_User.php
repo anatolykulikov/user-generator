@@ -1,5 +1,5 @@
 <?php
-class User {
+class USER_GENERATOR_User {
     public $user_pass = '';
     public $user_login = '';
     public $first_name = '';
@@ -16,13 +16,13 @@ class User {
         $gender = $this->set_gender();
         switch($gender) {
             case 'man': {
-                $this->first_name = get_male_name();
-                $this->last_name = trim( get_surname() . __( 'male-declension-surname', 'usergenerator' ) );
+                $this->first_name = user_generator_get_male_name();
+                $this->last_name = trim( user_generator_get_surname() . __( 'male-declension-surname', 'usergenerator' ) );
                 break;
             }
             case 'female': {
-                $this->first_name = get_female_name();
-                $this->last_name = trim( get_surname() . __( 'female-declension-surname', 'usergenerator' ) );
+                $this->first_name = user_generator_get_female_name();
+                $this->last_name = trim( user_generator_get_surname() . __( 'female-declension-surname', 'usergenerator' ) );
                 break;
             }
         }        
@@ -33,7 +33,7 @@ class User {
         $this->generate_url();
 
         // Generate user description
-        $this->description = get_about_user();
+        $this->description = user_generator_get_about_user();
     }
 
     // Set gender for current user

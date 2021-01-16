@@ -21,7 +21,7 @@ function user_generator_get_ui( WP_REST_Request $request ) {
 function user_generator_create_user( WP_REST_Request $request ) {
     
     // Generate new user
-    $user = new User();
+    $user = new USER_GENERATOR_User();
 
     // Insert user
     $user_id = wp_insert_user( [

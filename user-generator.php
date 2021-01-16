@@ -16,19 +16,26 @@
  */
 
 // Add plugin textdomain
-add_action( 'plugins_loaded', 'usergen_plugin_textdomain' );
-function usergen_plugin_textdomain(){
+add_action( 'plugins_loaded', 'user_generator_plugin_textdomain' );
+function user_generator_plugin_textdomain(){
 	load_plugin_textdomain( 'usergenerator', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
+
+// Include javascript and styles for application
+add_action( 'admin_enqueue_scripts', function () {
+    
+    // Javascript
+    wp_register_script( 'user_generator_javascript', plugin_dir_url(__FILE__) .'dist/bundle.js', array(), null, true );
+    wp_enqueue_script( 'user_generator_javascript' );
+
+    // Styles
+    wp_register_style( 'user_generator_styles', plugin_dir_url(__FILE__) .'dist/style.css', array(), null );
+    wp_enqueue_style( 'user_generator_styles' );
+});
 
 // Add subpage for generator
 add_action( 'admin_menu', 'register_user_generator_page' );
 function register_user_generator_page() {
-
-    // Include styles for application
-    add_action( 'admin_print_styles', function () {
-        echo('<link rel="stylesheet" href="'. plugin_dir_url(__FILE__) .'dist/style.css">');
-    });
     
     // Page
 	add_submenu_page( 'users.php', __( 'User Generator', 'usergenerator' ), __( 'User Generator', 'usergenerator' ), 'activate_plugins', 'user-generator', function () {
@@ -58,8 +65,6 @@ function register_user_generator_page() {
         echo('<div class="wrap">
             <h1>'. __( 'User Generator', 'usergenerator' ) .'</h1>
             <div id="usergenerator" data-api="'. home_url( 'wp-json/usergen' ) .'" data-token="'. $current_user_token .'"></div>
-            <script>document.API = "'. home_url( 'wp-json/usergen' ) .'"; document.Token = "'. $current_user_token .'";</script>
-            <script type="text/javascript" src="'. plugin_dir_url(__FILE__) .'dist/bundle.js"></script>
         </div>');
     } ); 
 }
