@@ -55,9 +55,6 @@ msgstr "Author"
 msgid "Editor"
 msgstr "Editor"
 
-#. Title of user role: Administator
-msgid "Administator"
-msgstr "Administator"
 
 #. How many users do you need?
 msgid "How many users do you need?"

@@ -8,7 +8,6 @@ import './Wrapper.scss';
 
 export interface IAppInterfaceTexts {
     roleTitle: string;
-    roleAdministator: string;
     roleEditor: string;
     roleAuthor: string;
     roleContributor: string;
@@ -47,7 +46,6 @@ export const Wrapper: React.FC = (): JSX.Element => {
             controlButton: '',
             userslistTitle: '',
             roleTitle: '',
-            roleAdministator: '',
             roleEditor: '',
             roleContributor: '',
             roleAuthor: '',

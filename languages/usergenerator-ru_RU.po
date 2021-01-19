@@ -16,10 +16,6 @@ msgstr ""
 "X-Loco-Version: 2.5.0; wp-5.5.3\n"
 "X-Domain: usergenerator"
 
-#. Title of user role: Administator
-msgid "Administator"
-msgstr "Администратор"
-
 #. Author of the plugin
 msgid "Anatoly Kulikov"
 msgstr "Анатолий Куликов"

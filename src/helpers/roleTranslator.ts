@@ -3,7 +3,6 @@ export interface ITranslations {
     roleContributor: string;
     roleAuthor: string;
     roleEditor: string;
-    roleAdministator: string;
     userslistTitle: string;
 }
 
@@ -25,10 +24,6 @@ export const roleTranslator = (role: string, translations: ITranslations): strin
 
         case 'editor': {
             return translations.roleEditor;
-        }
-
-        case 'administator': {
-            return translations.roleAdministator;
         }
 
         default: {

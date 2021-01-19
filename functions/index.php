@@ -8,7 +8,6 @@ function user_generator_get_ui( WP_REST_Request $request ) {
             'controlButton'    => __( 'Generate', 'usergenerator' ),
             'userslistTitle'   => __( 'List of users', 'usergenerator' ),
             'roleTitle'        => __( 'User roles', 'usergenerator' ),
-            'roleAdministator' => __( 'Administator', 'usergenerator' ),
             'roleEditor'       => __( 'Editor', 'usergenerator' ),
             'roleAuthor'       => __( 'Author', 'usergenerator' ),
             'roleContributor'  => __( 'Contributor', 'usergenerator' ),

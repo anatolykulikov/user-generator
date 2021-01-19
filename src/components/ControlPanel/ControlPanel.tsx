@@ -85,10 +85,6 @@ export const ControlPanel: React.FC<IControlPanel> = ({text, onGenerate}): JSX.E
             <div className='setting_block'>
                 <h2>{ text.roleTitle }</h2>
                 <label className='checkbox_wrapper'>
-                    <input type='checkbox' name='roles' value='administator' onChange={handleInput} checked={inputCheckedHandler('administator')} />
-                    <span>{ text.roleAdministator }</span>
-                </label>
-                <label className='checkbox_wrapper'>
                     <input type='checkbox' name='roles' value='editor' onChange={handleInput} checked={inputCheckedHandler('editor')} />
                     <span>{ text.roleEditor }</span>
                 </label>
